@@ -23,7 +23,7 @@ class StringBuilder {
   }
   padBoth(str) {
     this.padStart(str);
-    this.padBoth(str);
+    this.padEnd(str);
   }
 }
 
